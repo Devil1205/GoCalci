@@ -40,7 +40,7 @@ function Body(props) {
                         keys.map((key) => {
                             return (
                                 <div className='col-3 spacing' key={key}>
-                                    <div  style={{cursor: "pointer", backgroundColor: props.theme==="dark"?"#6a6399":"#c7ffd4"}} onClick={keyAction}>{key}</div>
+                                    <div  style={{cursor: "pointer", backgroundColor: props.theme==="dark"?"#6a6399":"rgb(209 229 255"}} onClick={keyAction}>{key}</div>
                                 </div>
                             )
                         })
