@@ -1,0 +1,37 @@
+@import url('http://fonts.cdnfonts.com/css/seven-segment');
+
+.d-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.answer{
+    height: 80px;
+    font-family: 'Seven Segment', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    border-radius: 6px;
+}
+
+.spacing div{
+    margin: 10px 0px;
+    padding: 10px 0px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 350px) {
+    .spacing{
+        width: 33.3333%;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    .spacing{
+        width: 50%;
+    }
+}

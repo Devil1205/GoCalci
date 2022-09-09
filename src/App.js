@@ -1,5 +1,7 @@
+import { useState } from "react";
 import Body from "./components/Body";
 import Navbar from "./components/Navbar";
+import About from "./components/About";
 import {
   BrowserRouter as Router,
   Routes,
@@ -7,12 +9,22 @@ import {
 } from "react-router-dom";
 
 function App() {
+
+  const [theme, setTheme] = useState("light");
+  const toggleTheme = () =>{
+    if(theme==='light')
+    setTheme('dark');
+    else
+    setTheme('light');
+  }
+
   return (
     <div>
       <Router>
-      <Navbar/>
+      <Navbar toggleTheme={toggleTheme} theme={theme}/>
       <Routes>
-        <Route exact path='/' element={<Body/>}/> 
+        <Route exact path='/' element={<Body theme={theme}/>}/> 
+        <Route exact path='/about' element={<About/>}/> 
       </Routes>
       </Router>
     </div>
