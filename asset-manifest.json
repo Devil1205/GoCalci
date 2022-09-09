@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gocalci/static/css/main.fe002638.css",
+    "main.js": "/gocalci/static/js/main.d0d69e63.js",
+    "index.html": "/gocalci/index.html",
+    "main.fe002638.css.map": "/gocalci/static/css/main.fe002638.css.map",
+    "main.d0d69e63.js.map": "/gocalci/static/js/main.d0d69e63.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe002638.css",
+    "static/js/main.d0d69e63.js"
+  ]
+}
