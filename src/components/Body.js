@@ -28,7 +28,7 @@ function Body(props) {
         }
     }
     return (
-        <div className="px-2 py-4" style={{backgroundColor: props.theme==="dark"?"#0f0923":"#f5f5f5", color: props.theme==="dark"?"white":"black"}}>
+        <div className="px-2 py-4" style={{backgroundColor: props.theme==="dark"?"#0f0923":"#ededed", color: props.theme==="dark"?"white":"black"}}>
             <h2 className='text-center'>GoCalci - A simple & Useful GUI Calculator</h2>
             <div className='my-4 py-4 container' style={{backgroundColor: props.theme==="dark"?"rgb(37 54 78)":"#98a4b5", maxWidth: "500px", borderRadius: "20px"}}>
                 <div className="answer p-2" style={{backgroundColor: props.theme==="dark"?"#0d0063":"aliceBlue"}}>

@@ -24,7 +24,7 @@ function App() {
       <Navbar toggleTheme={toggleTheme} theme={theme}/>
       <Routes>
         <Route exact path='/' element={<Body theme={theme}/>}/> 
-        <Route exact path='/about' element={<About/>}/> 
+        <Route exact path='/about' element={<About theme={theme}/>}/> 
       </Routes>
       </Router>
     </div>
