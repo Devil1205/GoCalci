@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/GoCalci/static/css/main.fe002638.css",
+    "main.css": "/GoCalci/static/css/main.1e3c43ab.css",
     "main.js": "/GoCalci/static/js/main.d0d69e63.js",
     "index.html": "/GoCalci/index.html",
-    "main.fe002638.css.map": "/GoCalci/static/css/main.fe002638.css.map",
+    "main.1e3c43ab.css.map": "/GoCalci/static/css/main.1e3c43ab.css.map",
     "main.d0d69e63.js.map": "/GoCalci/static/js/main.d0d69e63.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe002638.css",
+    "static/css/main.1e3c43ab.css",
     "static/js/main.d0d69e63.js"
   ]
 }
