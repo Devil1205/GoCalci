@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/GoCalci/static/css/main.1e3c43ab.css",
-    "main.js": "/GoCalci/static/js/main.d0d69e63.js",
+    "main.js": "/GoCalci/static/js/main.22b71ea6.js",
+    "static/media/about.png": "/GoCalci/static/media/about.d0c7b21437533ca9c616.png",
     "index.html": "/GoCalci/index.html",
     "main.1e3c43ab.css.map": "/GoCalci/static/css/main.1e3c43ab.css.map",
-    "main.d0d69e63.js.map": "/GoCalci/static/js/main.d0d69e63.js.map"
+    "main.22b71ea6.js.map": "/GoCalci/static/js/main.22b71ea6.js.map"
   },
   "entrypoints": [
     "static/css/main.1e3c43ab.css",
-    "static/js/main.d0d69e63.js"
+    "static/js/main.22b71ea6.js"
   ]
 }
